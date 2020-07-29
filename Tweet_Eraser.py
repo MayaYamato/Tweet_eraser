@@ -15,7 +15,7 @@ api = twitter.Api(
 
 dt1 = time.time()
 screen_name = lines[4].rstrip('\n')
-leaving_word = lines[5].rstrip('\n')
+leaving_word = 'ㅤ'
 
 while True:
     statuses = api.GetUserTimeline(screen_name = screen_name) 
